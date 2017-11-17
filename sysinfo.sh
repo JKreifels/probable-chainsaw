@@ -10,7 +10,8 @@ There are$(uptime | cut -d, -f3) logged in.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You're using $(df -h | grep dm-0 | tr -s " " | cut -d" " -f5) of your hard drive space.
+You're using$(df -h | grep dm-0 | tr -s " " | cut -d" " -f5) of your hard drive space.
+
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "
